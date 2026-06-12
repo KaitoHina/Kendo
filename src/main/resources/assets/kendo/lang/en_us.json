@@ -1,0 +1,13 @@
+{
+  "itemGroup.kendo": "Example Mod Tab",
+  "block.kendo.example_block": "Example Block",
+  "item.kendo.example_item": "Example Item",
+
+  "kendo.configuration.title": "Kendo Configs",
+  "kendo.configuration.section.kendo.common.toml": "Kendo Configs",
+  "kendo.configuration.section.kendo.common.toml.title": "Kendo Configs",
+  "kendo.configuration.items": "Item List",
+  "kendo.configuration.logDirtBlock": "Log Dirt Block",
+  "kendo.configuration.magicNumberIntroduction": "Magic Number Text",
+  "kendo.configuration.magicNumber": "Magic Number"
+}
