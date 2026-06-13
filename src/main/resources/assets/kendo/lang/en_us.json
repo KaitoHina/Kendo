@@ -1,8 +1,6 @@
 {
-  "itemGroup.kendo": "Example Mod Tab",
-  "block.kendo.example_block": "Example Block",
-  "item.kendo.example_item": "Example Item",
-
+  "item.kendo.weapons.shinai": "Shinai",
+  "itemGroup.kendo_tab": "Kendo",
   "kendo.configuration.title": "Kendo Configs",
   "kendo.configuration.section.kendo.common.toml": "Kendo Configs",
   "kendo.configuration.section.kendo.common.toml.title": "Kendo Configs",

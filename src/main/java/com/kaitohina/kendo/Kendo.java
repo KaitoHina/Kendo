@@ -1,5 +1,7 @@
 package com.kaitohina.kendo;
 
+import com.kaitohina.kendo.item.ModCreativeTabs;
+import com.kaitohina.kendo.item.ModItems;
 import com.mojang.logging.LogUtils;
 
 import org.slf4j.Logger;
@@ -31,6 +33,11 @@ public class Kendo {
   public Kendo(IEventBus modEventBus, ModContainer modContainer) {
     // Register the commonSetup method for modloading
     modEventBus.addListener(this::commonSetup);
+
+    // Register the mod items
+    ModItems.register(modEventBus);
+    // Register the mod tab
+    ModCreativeTabs.register(modEventBus);
 
     // Register ourselves for server and other game events we are interested in.
     // Note that this is necessary if and only if we want *this* class (Kendo) to
