@@ -13,6 +13,9 @@ public class ModZhTwLangProvider extends LanguageProvider {
   @Override
   protected void addTranslations() {
     // Add items translations
+    add(ModItems.SHINAI_BLADE.get(), "竹刀刀身");
+    add(ModItems.TSUBA.get(), "鍔");
+    add(ModItems.TSUKA.get(), "柄");
     add(ModItems.SHINAI.get(), "竹刀");
 
     // add creative tab translations

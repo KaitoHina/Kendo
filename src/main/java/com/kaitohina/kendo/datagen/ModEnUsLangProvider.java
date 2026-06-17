@@ -12,9 +12,12 @@ public class ModEnUsLangProvider extends LanguageProvider {
 
   @Override
   protected void addTranslations() {
-    // Add items translations 
+    // Add items translations
+    add(ModItems.SHINAI_BLADE.get(), "Shinai Blade");
+    add(ModItems.TSUBA.get(), "Tsuba");
+    add(ModItems.TSUKA.get(), "Tsuka");
     add(ModItems.SHINAI.get(), "Shinai");
-    
+
     // add creative tab translations
     add("itemGroup.kendo_tab", "Kendo");
   }

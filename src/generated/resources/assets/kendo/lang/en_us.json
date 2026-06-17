@@ -1,4 +1,7 @@
 {
+  "item.kendo.components.shinai_blade": "Shinai Blade",
+  "item.kendo.components.tsuba": "Tsuba",
+  "item.kendo.components.tsuka": "Tsuka",
   "item.kendo.weapons.shinai": "Shinai",
   "itemGroup.kendo_tab": "Kendo"
 }

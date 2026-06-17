@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "kendo:components/shinai_blade"
+    },
+    "K": {
+      "item": "kendo:components/tsuka"
+    },
+    "T": {
+      "item": "kendo:components/tsuba"
+    }
+  },
+  "pattern": [
+    " B ",
+    " T ",
+    " K "
+  ],
+  "result": {
+    "count": 1,
+    "id": "kendo:weapons/shinai"
+  }
+}

@@ -1,4 +1,7 @@
 {
+  "item.kendo.components.shinai_blade": "竹刀刀身",
+  "item.kendo.components.tsuba": "鍔",
+  "item.kendo.components.tsuka": "柄",
   "item.kendo.weapons.shinai": "竹刀",
   "itemGroup.kendo_tab": "劍道"
 }

@@ -24,6 +24,9 @@ public class ModCreativeTabs {
           .displayItems((parameters, output) -> {
             // Add all items belonging to this tab here
             output.accept(ModItems.SHINAI.get());
+            output.accept(ModItems.SHINAI_BLADE.get());
+            output.accept(ModItems.TSUBA.get());
+            output.accept(ModItems.TSUKA.get());
           })
           .build());
 

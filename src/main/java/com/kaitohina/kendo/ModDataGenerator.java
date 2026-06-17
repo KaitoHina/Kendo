@@ -1,8 +1,12 @@
 package com.kaitohina.kendo;
 
+import java.util.concurrent.CompletableFuture;
+
 import com.kaitohina.kendo.datagen.ModEnUsLangProvider;
+import com.kaitohina.kendo.datagen.ModRecipesProvider;
 import com.kaitohina.kendo.datagen.ModZhTwLangProvider;
 
+import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;
 import net.neoforged.bus.api.SubscribeEvent;
@@ -18,9 +22,15 @@ public class ModDataGenerator {
     DataGenerator generator = event.getGenerator();
     // Get the PackOutput for writing data files
     PackOutput output = generator.getPackOutput();
+    // Get the LookupProvider for accessing registries during data generation
+    CompletableFuture<HolderLookup.Provider> LookupProvider = event.getLookupProvider();
 
     // Add language providers
     generator.addProvider(event.includeClient(), new ModEnUsLangProvider(output, Kendo.MODID));
     generator.addProvider(event.includeClient(), new ModZhTwLangProvider(output, Kendo.MODID));
+
+    // Add recipe provider
+    generator.addProvider(event.includeServer(), new ModRecipesProvider(output, LookupProvider));
   }
+
 }
