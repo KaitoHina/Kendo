@@ -20,5 +20,9 @@ public class ModZhTwLangProvider extends LanguageProvider {
 
     // add creative tab translations
     add("itemGroup.kendo_tab", "劍道");
+
+    // add tooltip translations
+    add("tooltip.kendo.shinai", "按 §6§n§l§oSHIFT§r§r§r§r 以獲取更多資訊!");
+    add("tooltip.kendo.shinai.shift", "竹刀是劍道中使用的竹製劍。它由四片竹片組成，用於練習和比賽。");
   }
 }

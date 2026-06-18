@@ -3,5 +3,7 @@
   "item.kendo.components.tsuba": "鍔",
   "item.kendo.components.tsuka": "柄",
   "item.kendo.weapons.shinai": "竹刀",
-  "itemGroup.kendo_tab": "劍道"
+  "itemGroup.kendo_tab": "劍道",
+  "tooltip.kendo.shinai": "按 §6§n§l§oSHIFT§r§r§r§r 以獲取更多資訊!",
+  "tooltip.kendo.shinai.shift": "竹刀是劍道中使用的竹製劍。它由四片竹片組成，用於練習和比賽。"
 }

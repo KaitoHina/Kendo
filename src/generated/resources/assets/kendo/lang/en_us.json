@@ -3,5 +3,7 @@
   "item.kendo.components.tsuba": "Tsuba",
   "item.kendo.components.tsuka": "Tsuka",
   "item.kendo.weapons.shinai": "Shinai",
-  "itemGroup.kendo_tab": "Kendo"
+  "itemGroup.kendo_tab": "Kendo",
+  "tooltip.kendo.shinai": "Press §6§n§l§oSHIFT§r§r§r§r for more info!",
+  "tooltip.kendo.shinai.shift": "A bamboo sword used in Kendo. It is made of four slats of bamboo and is used for practice and competition."
 }
